@@ -1,0 +1,10 @@
+.container {
+    width: 550px;
+    border: 1px solid;
+}
+
+.main div {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
