@@ -1,3 +1,5 @@
 # grid-of-squares
 
-Grid of squares that you can color.
+Sketchpad kind of thing made using a grid of divs through jQuery, html, and css.
+unfinished.
+
