@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GridOfSquares</title>
+        <title>Grid Of Squares</title>
         <link rel="stylesheet" href="C:\Users\Yuth-2\Desktop\the_odin_project\grid-of-squares\styles\main.css" />
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
         <script src="C:\Users\Yuth-2\Desktop\the_odin_project\grid-of-squares\scripts\script.js"></script>
     </head>
-    <body>
+    <body>  
         <div class="container">
-            <div class="main">
-            </div>
+            <table class="main">    
+            </table> 
+        </div>
+        <button type="button" id="changegrid">Change grid size</button>
+        <div id="popup" title="Change Grid size">
+                <form id="data" method="POST">
+                    Rows: <br>
+                    <input type="text" name="rows" id="rows" value="16"></input>
+                    Columns: <br>
+                    <input type="text" name="columns" id="columns" value="16"></input>
+                    <h6>Note: Only numbers work</h6>
+                    <input type="submit" id="getdata"></input>
+                </form>
         </div>
     </body>
 </html>
